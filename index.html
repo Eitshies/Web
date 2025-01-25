@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinideus</title>
-    <style>
-        body {
-            background-color: #0a2233;
-            margin: 0;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 20px;
-        }
-        .logo img {
-            height: 75px;
-			width: auto;
-        }
-        .home-button {
-            color: #30bde2;
-            font-size: 40px;
-            text-decoration: none;
-        }
-        .home-button:hover {
-            color: #1a8ca8;
-        }
-		.left-image {
-		    max-width: 2000px;
-    		margin-right: 0px;
-			margin-left: 0px;
-		}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinideus</title>
+<style>
+  body {
+    background-color: #0a2233;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  body img.left-image {
+    max-width: 100%;
+    display: block;
+  }
 </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="ee.png" alt="EE Logo">
-        </div>
-        <a href="home_page_url" class="home-button">&#8962;</a>
-	</div>
-		<img src="computer.png" alt="Computer" class="left-image">
+<div class="header">
+  <div class="logo">Erraoui</div>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#concepts">Concepts</a>
+    <a href="#tutorials">Tutorials</a>
+    <a href="#resources">Resources</a>
+  </div>
+</div>
+<img src="computer.png" alt="Computer" class="left-image">
 </body>
 </html>
-
